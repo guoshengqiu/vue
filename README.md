@@ -18,7 +18,7 @@
 webpack 是模板名称，可以到 vue.js 的 GitHub 上查看更多的模板https://github.com/vuejs-templates <br/>
 my-project 是自定义的项目名称，命令执行之后，会在当前目录生成一个以该名称命名的项目文件夹<br/>
 配置如图：<br/>
-  ![image](vue/readme/1.jpg)
+  ![image](vue/readme/1.jpg)<br/>
 配置完成后，可以看到目录下多出了一个项目文件夹，里面就是 vue-cli 创建的一个基于 webpack 的 vue.js 项目
 然后进入项目目录（cd Vue-Project），使用 npm/cnpm 安装依赖:<br/>
   $npm install  <br/>

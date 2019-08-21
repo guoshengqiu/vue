@@ -6,3 +6,6 @@
   
  #用法
   $ vue init webpack my-project
+  
+#安装慢，使用国内镜像来安装，所以我们先设置 cnpm：<br/>
+  $npm install -g cnpm --registry=https://registry.npm.taobao.org

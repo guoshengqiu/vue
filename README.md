@@ -1,7 +1,7 @@
 # vue
 结合vue-cli练习vue
 
-#安装vue-cli 非3.0及以上版本<br/>
+<h3>#安装vue-cli 非3.0及以上版本</h3><br/>
   $ npm install -g vue-cli
   
  #用法<br/>

@@ -2,6 +2,7 @@
   <div>
     <span>首页</span>
     <router-link :to="{path: '/sign', query: {id: 123}}">登录</router-link>
+    <!-- <router-view></router-view> -->
   </div>
 </template>
 

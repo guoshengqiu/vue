@@ -29,9 +29,11 @@ export default {
   created () {
     console.log('a')
   },
-  computed: mapState({
-    count: state => state.count
-  }),
+  computed: {
+    ...mapState({
+      count: state => state.count
+    })
+  },
   // computed: mapState([
   //   'count'
   // ]),

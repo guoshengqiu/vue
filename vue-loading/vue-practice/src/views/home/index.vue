@@ -1,9 +1,12 @@
 <template>
   <div>
     <div class="test">
-      <span>首页</span>
-      <router-link :to="{path: '/sign', query: {id: 123}}">登录</router-link>
-      <!-- <router-view></router-view> -->
+      <div class="header">
+        <span>首页</span>
+        <router-link :to="{path: '/sign', query: {id: 123}}">登录</router-link>
+        <router-link :to="{path: '/flex', query: {id: 123}}">flex布局</router-link>
+        <!-- <router-view></router-view> -->
+      </div>
       <div class="content-top">
         模块1
         <button @click="handle()">点击次数{{count}}</button>
@@ -56,11 +59,16 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
   .test {
     position: relative;
     top: 0 ;
     left: 0;
+    .header {
+      width: auto;
+      height: 50px;
+      background-color: #818181;
+    }
   }
   .to-top {
     position: fixed;

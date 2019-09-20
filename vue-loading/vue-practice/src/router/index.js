@@ -8,15 +8,22 @@ export default new Router({
     {
       path: '/',
       component: () => import('@/views/home')
-      // children: [
-      //   {
-      //     path: '/sign',
-      //     name: 'sign',
-      //     components: {
-      //       default: () => import('@/views/sign')
-      //     }
-      //   }
-      // ]
+    //   children: [
+    //     {
+    //       path: '/sign',
+    //       name: 'sign',
+    //       components: {
+    //         default: () => import('@/views/sign')
+    //       }
+    //     },
+    //     {
+    //       path: '/flex',
+    //       name: 'flex',
+    //       components: {
+    //         default: () =>('@/views/flex')
+    //       }
+    //     }
+    //   ]
     },
 
     {
@@ -31,6 +38,13 @@ export default new Router({
       //     }
       //   }
       // ]
+    },
+    {
+      path: '/flex',
+      name: 'flex',
+      components: {
+        default: () => import('@/views/flex')
+      }
     }
   ]
 })

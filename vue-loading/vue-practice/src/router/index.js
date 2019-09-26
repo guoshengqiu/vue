@@ -45,6 +45,13 @@ export default new Router({
       components: {
         default: () => import('@/views/flex')
       }
+    },
+    {
+      path: '/elementui',
+      name: 'elementui',
+      components: {
+        default: () => import('@/views/elementui')
+      }
     }
   ]
 })

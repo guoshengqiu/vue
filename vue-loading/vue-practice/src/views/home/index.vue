@@ -5,6 +5,7 @@
         <span>首页</span>
         <router-link :to="{path: '/sign', query: {id: 123}}">登录</router-link>
         <router-link :to="{path: '/flex', query: {id: 123}}">flex布局</router-link>
+        <router-link :to="{path: '/elementui'}">ElementUi</router-link>
         <!-- <router-view></router-view> -->
       </div>
       <div class="content-top">

@@ -29,4 +29,8 @@ my-project 是自定义的项目名称，命令执行之后，会在当前目录
 ![Image text](https://github.com/guoshengqiu/vue/blob/master/readme/2.jpg)
 
 <b>安装vuex</b><br/>
-npm install vuex --save
+$ npm install vuex --save
+<br/>
+<br/>
+<b>安装element-ui</b><br/>
+$ npm i element-ui -S

@@ -27,3 +27,6 @@ my-project 是自定义的项目名称，命令执行之后，会在当前目录
  如果浏览器打开之后，没有加载出页面，有可能是本地的 8080 端口被占用，需要修改一下配置文件 config>index.js<br/>
 </p>
 ![Image text](https://github.com/guoshengqiu/vue/blob/master/readme/2.jpg)
+
+<b>安装vuex</b>
+npm install vuex --save

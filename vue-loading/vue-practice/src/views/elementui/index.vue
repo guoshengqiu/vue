@@ -29,14 +29,16 @@
       <el-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"><div class="cell-v"></div></el-col>
     </el-row>
     <Layout></Layout>
+    <Input/>
   </div>
 </template>
 
 <script>
 import Layout from '@/components/Layout'
+import Input from '@/components/Input'
 
 export default {
-  components: { Layout }
+  components: { Layout, Input }
 }
 </script>
 

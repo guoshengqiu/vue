@@ -59,6 +59,13 @@ export default new Router({
       components: {
         default: () => import('@/views/szqc')
       }
+    },
+    {
+      path: '/element-ui-form',
+      name: 'element-ui-form',
+      components: {
+        default: () => import('@/views/element-ui-form')
+      }
     }
   ]
 })

@@ -7,6 +7,7 @@
         <router-link :to="{path: '/flex', query: {id: 123}}">flex布局</router-link>
         <router-link :to="{path: '/elementui'}">ElementUi</router-link>
         <router-link :to="{path: '/szqc'}">数组去重</router-link>
+        <router-link :to="{path: '/element-ui-form'}">表单验证</router-link>
         <!-- <router-view></router-view> -->
       </div>
       <div class="content-top">

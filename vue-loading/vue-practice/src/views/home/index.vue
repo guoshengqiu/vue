@@ -20,7 +20,10 @@
       <div class="content-bottom">模块3</div>
       <footer>底部</footer>
       <!-- <div class="to-top" @click="toTop">回到顶部</div> -->
-      <ToTop class="to-top" @returnTop="toTop"/>
+      <!-- @returnTop="toTop" -->
+      <ToTop
+        class="to-top"
+        :top1.sync="top1"/>
     </div>
   </div>
 </template>
@@ -33,6 +36,11 @@ import { toggle } from '@/mixin/hello.js'
 export default {
   mixins: [toggle],
   components: { ToTop },
+  data () {
+    return {
+      top1: 1
+    }
+  },
   created () {
     console.log('a')
   },
@@ -51,15 +59,17 @@ export default {
   //   // }
   // },
   methods: {
-    toTop () {
+    toTop (top1) {
       document.body.scrollTop = 0
       document.documentElement.scrollTop = 0
       console.log('回到顶部一次')
+      // this.top1 = top1
     },
     handle () {
       this.$store.commit('clickHandle')
       // 引入toggle混入组件,就可以使用该组件中的sayHello方法了
       this.sayHello()
+      console.log(this.top1)
     }
   }
 }

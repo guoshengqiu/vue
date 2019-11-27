@@ -1,5 +1,6 @@
 <template>
   <div>
+    <p>slot</p>
     <slot>abc</slot>
   </div>
 </template>

@@ -28,8 +28,10 @@
 <script>
 import ToTop from '@/components/ToTop'
 import { mapState } from 'vuex'
+import { toggle } from '@/mixin/hello.js'
 
 export default {
+  mixins: [toggle],
   components: { ToTop },
   created () {
     console.log('a')
@@ -56,6 +58,8 @@ export default {
     },
     handle () {
       this.$store.commit('clickHandle')
+      // 引入toggle混入组件,就可以使用该组件中的sayHello方法了
+      this.sayHello()
     }
   }
 }

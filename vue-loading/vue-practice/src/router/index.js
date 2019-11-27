@@ -52,6 +52,13 @@ export default new Router({
       components: {
         default: () => import('@/views/elementui')
       }
+    },
+    {
+      path: '/slot',
+      name: 'slot',
+      components: {
+        default: () => import('@/views/slot')
+      }
     }
   ]
 })

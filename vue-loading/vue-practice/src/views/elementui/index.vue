@@ -30,6 +30,7 @@
     </el-row>
     <Layout></Layout>
     <Input/>
+    <div class="space"></div>
   </div>
 </template>
 
@@ -71,5 +72,8 @@ export default {
     background-color: #9949bf;
     min-height: 30px;
     border-radius: 4px;
+  }
+  .space {
+    height: 400px;
   }
 </style>
